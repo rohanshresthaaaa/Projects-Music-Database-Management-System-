@@ -1,0 +1,409 @@
+python main.py%                                                                                                                                             
+(base) rohanshrestha@Rohans-MacBook-Air DB % python main.py
+
+ MENU: 
+1. Artist CRUD
+2. Album CRUD
+3. Category CRUD
+4. Song CRUD
+5. Reports
+0. Exit
+Choice: 1
+
+1. Create Artist
+2. List Artists
+3. Update Artist
+4. Delete Artist
+Choice: 1
+Enter artist name: Post Malone
+Artist created successfully!
+
+ MENU: 
+1. Artist CRUD
+2. Album CRUD
+3. Category CRUD
+4. Song CRUD
+5. Reports
+0. Exit
+Choice: 1
+
+1. Create Artist
+2. List Artists
+3. Update Artist
+4. Delete Artist
+Choice: 2
+
+All Artists:
+2 - Drake
+1 - John Rai
+4 - Post Malone
+3 - Pritam
+
+ MENU: 
+1. Artist CRUD
+2. Album CRUD
+3. Category CRUD
+4. Song CRUD
+5. Reports
+0. Exit
+Choice: 1
+
+1. Create Artist
+2. List Artists
+3. Update Artist
+4. Delete Artist
+Choice: 3
+
+All Artists:
+2 - Drake
+1 - John Rai
+4 - Post Malone
+3 - Pritam
+Enter ArtistID to update: 3
+Enter new name: Kendrick
+Artist updated.
+
+ MENU: 
+1. Artist CRUD
+2. Album CRUD
+3. Category CRUD
+4. Song CRUD
+5. Reports
+0. Exit
+Choice: 1
+
+1. Create Artist
+2. List Artists
+3. Update Artist
+4. Delete Artist
+Choice: 4
+
+All Artists:
+2 - Drake
+1 - John Rai
+3 - Kendrick
+4 - Post Malone
+Enter ArtistID to delete: 3
+Artist deleted.
+
+ MENU: 
+1. Artist CRUD
+2. Album CRUD
+3. Category CRUD
+4. Song CRUD
+5. Reports
+0. Exit
+Choice: 2
+
+1. Create Album
+2. List Albums
+3. Update Album
+4. Delete Album
+Choice: 1
+Enter album title: Stoney
+Enter album year: 2016
+Album created!
+
+ MENU: 
+1. Artist CRUD
+2. Album CRUD
+3. Category CRUD
+4. Song CRUD
+5. Reports
+0. Exit
+Choice: 2
+
+1. Create Album
+2. List Albums
+3. Update Album
+4. Delete Album
+Choice: 2
+
+Albums:
+1 - Her Loss (2022)
+2 - Stoney (2016)
+
+ MENU: 
+1. Artist CRUD
+2. Album CRUD
+3. Category CRUD
+4. Song CRUD
+5. Reports
+0. Exit
+Choice: 2
+
+1. Create Album
+2. List Albums
+3. Update Album
+4. Delete Album
+Choice: 3
+
+Albums:
+1 - Her Loss (2022)
+2 - Stoney (2016)
+Enter AlbumID to update: 1
+New title: Hollywood's Bleeding
+New year: 2019
+Album updated.
+
+ MENU: 
+1. Artist CRUD
+2. Album CRUD
+3. Category CRUD
+4. Song CRUD
+5. Reports
+0. Exit
+Choice: 2
+
+1. Create Album
+2. List Albums
+3. Update Album
+4. Delete Album
+Choice: 1
+Enter album title: OMG SPARK
+Enter album year: 2019
+Album created!
+
+ MENU: 
+1. Artist CRUD
+2. Album CRUD
+3. Category CRUD
+4. Song CRUD
+5. Reports
+0. Exit
+Choice: 2
+
+1. Create Album
+2. List Albums
+3. Update Album
+4. Delete Album
+Choice: 2
+
+Albums:
+1 - Hollywood's Bleeding (2019)
+2 - Stoney (2016)
+3 - OMG SPARK (2019)
+
+ MENU: 
+1. Artist CRUD
+2. Album CRUD
+3. Category CRUD
+4. Song CRUD
+5. Reports
+0. Exit
+Choice: 2
+
+1. Create Album
+2. List Albums
+3. Update Album
+4. Delete Album
+Choice: 4
+
+Albums:
+1 - Hollywood's Bleeding (2019)
+2 - Stoney (2016)
+3 - OMG SPARK (2019)
+AlbumID to delete: 3
+Album deleted.
+
+ MENU: 
+1. Artist CRUD
+2. Album CRUD
+3. Category CRUD
+4. Song CRUD
+5. Reports
+0. Exit
+Choice: 3
+
+1. Create Category
+2. List Categories
+3. Update Category
+4. Delete Category
+Choice: 1
+Enter category name: Rock
+Category created!
+
+ MENU: 
+1. Artist CRUD
+2. Album CRUD
+3. Category CRUD
+4. Song CRUD
+5. Reports
+0. Exit
+Choice: 3
+
+1. Create Category
+2. List Categories
+3. Update Category
+4. Delete Category
+Choice: 2
+
+Categories:
+2 - Classic
+1 - Pop
+3 - Rock
+
+ MENU: 
+1. Artist CRUD
+2. Album CRUD
+3. Category CRUD
+4. Song CRUD
+5. Reports
+0. Exit
+Choice: 3
+
+1. Create Category
+2. List Categories
+3. Update Category
+4. Delete Category
+Choice: 3
+
+Categories:
+2 - Classic
+1 - Pop
+3 - Rock
+Enter CategoryID to update: 2
+Enter new name: Classical
+Category updated.
+
+ MENU: 
+1. Artist CRUD
+2. Album CRUD
+3. Category CRUD
+4. Song CRUD
+5. Reports
+0. Exit
+Choice: 3
+
+1. Create Category
+2. List Categories
+3. Update Category
+4. Delete Category
+Choice: 4
+
+Categories:
+2 - Classical
+1 - Pop
+3 - Rock
+CategoryID to delete: 2
+Category deleted.
+
+ MENU: 
+1. Artist CRUD
+2. Album CRUD
+3. Category CRUD
+4. Song CRUD
+5. Reports
+0. Exit
+Choice: 4
+
+1. Create Song
+2. List Songs
+Choice: 1
+Enter song title: Circles
+Song created! SongID = 3
+
+Select Artist:
+
+All Artists:
+2 - Drake
+1 - John Rai
+4 - Post Malone
+Enter ArtistID: 4
+
+Select Category:
+
+Categories:
+1 - Pop
+3 - Rock
+Enter CategoryID: 3
+
+Select Album:
+
+Albums:
+1 - Hollywood's Bleeding (2019)
+2 - Stoney (2016)
+Enter AlbumID: 1
+Song fully linked!
+
+ MENU: 
+1. Artist CRUD
+2. Album CRUD
+3. Category CRUD
+4. Song CRUD
+5. Reports
+0. Exit
+Choice: 5
+
+1. Songs by Artist
+2. Artists by Year
+3. Albums by Category
+Choice: 1
+Enter artist name: Post Malone
+
+Songs by Artist:
+Circles - Post Malone
+
+ MENU: 
+1. Artist CRUD
+2. Album CRUD
+3. Category CRUD
+4. Song CRUD
+5. Reports
+0. Exit
+Choice: 5
+
+1. Songs by Artist
+2. Artists by Year
+3. Albums by Category
+Choice: 2
+Enter album year: 2016
+
+Artists with albums in that year:
+
+ MENU: 
+1. Artist CRUD
+2. Album CRUD
+3. Category CRUD
+4. Song CRUD
+5. Reports
+0. Exit
+Choice: 5
+
+1. Songs by Artist
+2. Artists by Year
+3. Albums by Category
+Choice: 2
+Enter album year: 2019
+
+Artists with albums in that year:
+John Rai
+Post Malone
+
+ MENU: 
+1. Artist CRUD
+2. Album CRUD
+3. Category CRUD
+4. Song CRUD
+5. Reports
+0. Exit
+Choice: 5
+
+1. Songs by Artist
+2. Artists by Year
+3. Albums by Category
+Choice: 3
+Enter category name: Rock
+
+Albums with songs in category:
+Hollywood's Bleeding - by Post Malone
+
+ MENU: 
+1. Artist CRUD
+2. Album CRUD
+3. Category CRUD
+4. Song CRUD
+5. Reports
+0. Exit
+Choice: 0
+(base) rohanshrestha@Rohans-MacBook-Air DB % 
